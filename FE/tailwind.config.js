@@ -19,6 +19,7 @@ export default {
         'figma-13': 'rgb(183,110,121)', 
         'figma-14': 'rgb(254,237,221)',
         'figma-15': 'rgb(230, 190, 164)',
+        'figma-16': 'rgb(255, 240, 216)',
       },
         zIndex:{
           '5': '5',

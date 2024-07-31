@@ -31,8 +31,14 @@
                 <LayoutPhotocard2/>
             </div>
         </div>
-        <div class="w-full h-screen bg-figma-4 pt-16">
-            
+        <div class="w-full h-auto bg-figma-4 pt-32 px-12">
+            <div class="w-full h-3 bg-figma-12 rounded-full"></div>
+        </div>
+
+        <div class="w-full h-auto bg-figma-4 pt-10 px-12">
+            <div class="flex w-full h-full">
+                <LayoutFooter/>
+            </div>
         </div>
     </div>
 </template>
