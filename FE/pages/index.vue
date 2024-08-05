@@ -7,7 +7,7 @@
                     <img class="w-[40%] h-[90%] absolute -left-20 -scale-x-100" src="https://i.ibb.co.com/27968LH/kanan-kiri.png" alt="">
                     <img class="w-[40%] h-[90%] absolute -right-20" src="https://i.ibb.co.com/27968LH/kanan-kiri.png" alt="">
                 </div>
-                <h1 class="text-7xl text-white text-center font-bold text-shadow-xl">
+                <h1  class="text-7xl text-white text-center font-bold text-shadow-xl">
                     Professional <br> Make up Studio
                 </h1>
                 <h2 class="w-1/2 text-figma-13 text-center">
@@ -16,22 +16,25 @@
                 <NuxtLink class="bg-figma-12 text-white py-3 px-10 rounded-3xl text-sm cursor-pointer z-5  hover:bg-opacity-80" to="/mua">Get Started</NuxtLink>
             </div>
         </div>
-        <div class="w-full h-auto bg-figma-4 pt-16">
-            <div class="flex justify-center mt-32">
-                <LayoutPhotocard1/>
+        <div class="flex w-full h-auto bg-figma-4 pt-10 overflow-hidden">
+            <div class="px-12 flex w-full h-full justify-center">
+                <img data-aos="fade-left" class="rounded-lg w-full" src="https://i.ibb.co.com/BzhKKbY/promo.jpg" alt="">
             </div>
         </div>
-        <div class="w-full h-screen bg-figma-4 pt-16">
-            <div class="flex justify-center mt-32">
+        <div class="w-full h-auto bg-figma-4 pt-16">
+            <div class="flex justify-between mx-12 gap-3 flex-wrap">
+                <LayoutCardprofilemua/>
+                <LayoutCardprofilemua/>
+                <LayoutCardprofilemua/>
                 <LayoutCardprofilemua/>
             </div>
         </div>
-        <div class="w-full h-auto bg-figma-4 pt-16">
-            <div class="flex justify-center mt-32">
-                <LayoutPhotocard2/>
+        <div class="w-full h-auto bg-figma-4 pt-5">
+            <div class="flex justify-center mt-16">
+                <LayoutPhotocard1/>
             </div>
         </div>
-        <div class="w-full h-auto bg-figma-4 pt-32 px-12">
+        <div class="w-full h-auto bg-figma-4 pt-10 px-12">
             <div class="w-full h-3 bg-figma-12 rounded-full"></div>
         </div>
 

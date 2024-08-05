@@ -4,11 +4,30 @@
             <div class="w-full flex flex-row text-4xl">
                 <h1 class="font-extrabold text-figma-12">WeMake</h1><h1 class="font-semibold">Artisty</h1>
             </div>
-            <div class="flex flex-row w-full h-auto">
-                <div class="flex flex-col w-full h-full">
-                    <h1>About Us</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque magnam dignissimos repellat cumque, aspernatur incidunt odit laborum? Eligendi voluptas velit quos soluta ducimus ipsam cum odit voluptate quaerat magnam, quibusdam nulla illo sint adipisci dignissimos voluptatibus quam voluptatum corrupti maxime ipsa libero sunt perspiciatis nemo. Molestias, excepturi tempore. Eveniet officia, aliquam aliquid quisquam velit dolorem asperiores iusto cumque ab, eaque et repellat reiciendis quam. Mollitia deleniti tenetur ipsum itaque ad ab tempore quae eius laudantium dolore nemo modi incidunt, iure explicabo quia vel esse totam accusamus? Excepturi autem accusantium itaque odio eveniet, fugiat porro, repellendus quae cum voluptatibus placeat enim!</p>
+            <div class="flex flex-row w-full h-auto justify-between pt-16">
+                <div class="flex flex-col w-1/3 h-full gap-y-4">
+                    <h1 class="text-figma-11 font-semibold">About Us</h1>
+                    <p class="text-figma-11 font-thin text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed non rem dolores necessitatibus tempora! Quibusdam fugit magni animi! Accusamus enim dolorem nihil ut beatae sapiente cupiditate atque officia!</p>
                 </div>
+                <div class="flex flex-col items-center w-1/4 ">
+                    <div class="flex flex-col gap-y-4">
+                            <div class="flex">
+                            <h1 class="text-figma-11 font-semibold">Information</h1>
+                        </div>
+                        <div class="flex flex-col font-thin text-figma-11 text-sm">
+                            <a href="">Privacy Policy</a>
+                            <a href="">Terms and Conditions</a>
+                            <a href="">How to Book</a>
+                            <a href="">Payment and Cancellation</a>
+                        </div>
+                        </div>
+                    </div>
+                <div class="flex w-1/4 justify-end">
+                    <h1 class="text-figma-11 font-semibold">Follow Us and Stay Connetcted</h1>
+                </div>
+            </div>
+            <div class="w-full h-auto flex justify-center">
+                <h1 class="text-figma-11 font-semibold mt-10">&copy; 2024 MakeUpArtistry. All Rights Reserved.</h1>
             </div>
         </div>
     </div>

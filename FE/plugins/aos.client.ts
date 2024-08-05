@@ -6,7 +6,7 @@ export default defineNuxtPlugin((nuxtApp) => {
         AOS.init({
         duration: 1200, // durasi animasi dalam milidetik
         easing: 'ease-in-out', // jenis easing
-        once: true, // animasi hanya sekali terjadi
+        // once: true, // animasi hanya sekali terjadi
         mirror: false // apakah animasi diputar ulang saat scroll ke atas
         });
     });

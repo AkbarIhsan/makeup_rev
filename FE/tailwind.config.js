@@ -21,9 +21,13 @@ export default {
         'figma-15': 'rgb(230, 190, 164)',
         'figma-16': 'rgb(255, 240, 216)',
       },
-        zIndex:{
-          '5': '5',
-        },
+      zIndex:{
+        '5': '5',
+      },
+      boxShadow:{
+        'username': '0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)',
+        'cardmua': '0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)',
+      }
     },
   },
   plugins: [
