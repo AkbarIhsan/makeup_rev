@@ -34,6 +34,7 @@
                 <LayoutPhotocard1/>
             </div>
         </div>
+        
         <div class="w-full h-auto bg-figma-4 pt-10 px-12">
             <div class="w-full h-3 bg-figma-12 rounded-full"></div>
         </div>

@@ -5,8 +5,8 @@
                 <li class="flex flex-row text-2xl text-shadow-md"><h1 class="font-extrabold text-figma-12">WeMake</h1><h1>Artisty</h1></li>
                 <div class="w-full h-full flex flex-row gap-10 justify-end items-center">
                     <li><NuxtLink :class="{'text-figma-12 hover:border-none' : isActive('/')}" class="flex text-figma-11 text-sm cursor-pointer hover:border-b-2 hover:border-figma-7" to="/">Home</NuxtLink></li>
-                    <li><NuxtLink :class="{'text-figma-12 hover:border-none' : isActive('/mua')}" class="flex text-figma-11 text-sm cursor-pointer hover:border-b-2 hover:border-figma-7" to="/mua">MakeUp Artist</NuxtLink></li>
-                    <li><NuxtLink :class="{'text-figma-12 hover:border-none' : isActive('/promo')}" class="flex text-figma-11 text-sm cursor-pointer hover:border-b-2 hover:border-figma-7" to="/promo">Promo</NuxtLink></li>
+                    <li><NuxtLink :class="{'text-figma-12 hover:border-none' : isActive('/about')}" class="flex text-figma-11 text-sm cursor-pointer hover:border-b-2 hover:border-figma-7" to="/about">About Us</NuxtLink></li>
+                    <li><NuxtLink :class="{'text-figma-12 hover:border-none' : isActive('/mua')}" class="flex text-figma-11 text-sm cursor-pointer hover:border-b-2 hover:border-figma-7" to="/mua">Service</NuxtLink></li>
                     <li><NuxtLink class="bg-figma-12 text-white py-3 px-14 font-bold flex items-center rounded-3xl text-sm hover:opacity-80" to="/">Sign In</NuxtLink></li>
                 </div>
             </ul>
