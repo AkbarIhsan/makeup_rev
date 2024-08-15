@@ -11,7 +11,7 @@
                             <img class="w-[35%] h-[30%] ml-12" src="https://i.ibb.co.com/FJ11MYD/auth-removebg-preview.png" alt="">
                             <h1 class="text-shadow-lg text-5xl font-bold">Welcome!</h1>
                             <h2 class="text-figma-11">Already have an account?</h2>
-                            <NuxtLink class="bg-transparent border-2 border-figma-1 font-semibold text-figma-1 py-2 px-12 rounded-3xl cursor-pointer hover:bg-opacity-80" to="/explore">Sign In</NuxtLink>
+                            <NuxtLink class="bg-transparent hover:bg-figma-5 border-2 border-figma-1 font-semibold text-figma-1 py-2 px-12 rounded-3xl cursor-pointer hover:bg-opacity-80" to="/">Sign In</NuxtLink>
                         </div>
                         <div class="w-[50%] h-full bg-figma-1 rounded-r-lg">
                             <LayoutFormreg/>
