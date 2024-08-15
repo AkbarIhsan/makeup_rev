@@ -11,10 +11,10 @@
         </div>
         <div class="w-full h-auto bg-figma-4 pt-10 overflow-hidden">
             <div class="w-full h-96 flex">
-                <div data-aos="fade-right" class="w-full h-full flex flex-row bg-figma-17 mx-12">
-                    <div class="flex flex-col w-[60%] gap-10 p-10">
-                        <h1 class="text-4xl text-figma-7 font-bold">JUDUL</h1>
-                        <h2 class="text-figma-7">Our marketplace empowers makeup artists to manage and expand their businesses while seamlessly engaging with both new and returning clients. With tools designed to streamline scheduling, showcase services, and grow their clientele, makeup artists can focus on what they do best—creating stunning looks. WeMakeArtistry provides the support and visibility needed to elevate their craft and achieve their business goals.</h2>
+                <div data-aos="fade-right" class="w-full h-full flex flex-row mx-12">
+                    <div class="flex flex-col w-[60%] gap-10 px-10 justify-center">
+                        <h1 class="text-4xl text-figma-7 font-bold">Elevate Your Artistry</h1>
+                        <h2 class="text-figma-7">WeMakeArtistry empowers makeup artists to manage their businesses, connect with clients, and streamline scheduling. Our tools showcase your services and grow your clientele, allowing you to focus on creating stunning looks. We provide the support and visibility needed to achieve your business goals.</h2>
                     </div>
                     <div class="flex w-[40%] h-full px-10">
                         <div class="w-full h-full bg-figma-18">
@@ -27,10 +27,10 @@
 
         <div class="w-full h-auto bg-figma-4 pt-10 overflow-hidden">
             <div class="w-full h-96 flex">
-                <div data-aos="fade-left" class="w-full h-full flex flex-row-reverse bg-figma-17 mx-12">
-                    <div class="flex flex-col w-[60%] gap-10 p-10">
-                        <h1 class="text-4xl text-figma-7 font-bold">JUDUL</h1>
-                        <h2 class="text-figma-7">Our marketplace empowers makeup artists to manage and expand their businesses while seamlessly engaging with both new and returning clients. With tools designed to streamline scheduling, showcase services, and grow their clientele, makeup artists can focus on what they do best—creating stunning looks. WeMakeArtistry provides the support and visibility needed to elevate their craft and achieve their business goals.</h2>
+                <div data-aos="fade-left" class="w-full h-full flex flex-row-reverse mx-12">
+                    <div class="flex flex-col w-[60%] gap-10 px-10 justify-center">
+                        <h1 class="text-4xl text-figma-7 font-bold">Discover Your Beauty</h1>
+                        <h2 class="text-figma-7">For clients, WeMakeArtistry makes it easy to discover and book beauty services anytime, anywhere. Whether you need expert makeup for a special event or want to upgrade your daily routine, our platform connects you with top professionals. Enjoy personalized beauty experiences and effortless booking with WeMakeArtistry.</h2>
                     </div>
                     <div class="flex w-[40%] h-full px-10">
                         <div class="w-full h-full bg-figma-18">

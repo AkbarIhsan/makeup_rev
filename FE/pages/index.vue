@@ -17,29 +17,31 @@
             </div>
         </div>
         <div class="flex w-full h-auto bg-figma-4 pt-10 overflow-hidden">
-            <div class="px-12 flex w-full h-full justify-center">
+            <div class="px-20 flex w-full h-full justify-center">
                 <img data-aos="fade-left" class="rounded-lg w-full" src="https://i.ibb.co.com/BzhKKbY/promo.jpg" alt="">
             </div>
         </div>
         <div class="w-full h-auto bg-figma-4 pt-16">
-            <div class="flex justify-between mx-12 gap-3 flex-wrap">
+            <div class="w-full flex flex-row justify-between px-20">
+                <h1 class="text-figma-7 text-2xl font-bold">Top MUA</h1>
+                <NuxtLink class="flex items-center text-figma-11 font-semibold text-xl" to="/mua">View More</NuxtLink>
+            </div>
+            <div class="flex justify-between mx-20 gap-y-12 flex-wrap mt-12">
                 <LayoutCardprofilemua/>
                 <LayoutCardprofilemua/>
                 <LayoutCardprofilemua/>
                 <LayoutCardprofilemua/>
             </div>
         </div>
-        <div class="w-full h-auto bg-figma-4 pt-5">
-            <div class="flex justify-center mt-16">
-                <LayoutPhotocard1/>
-            </div>
+        <div class="w-full h-auto bg-figma-4 pt-16 px-20">
+            <LayoutPhotocard1/>
         </div>
         
-        <div class="w-full h-auto bg-figma-4 pt-10 px-12">
+        <div class="w-full h-auto bg-figma-4 pt-10 px-20">
             <div class="w-full h-3 bg-figma-12 rounded-full"></div>
         </div>
 
-        <div class="w-full h-auto bg-figma-4 pt-10 px-12">
+        <div class="w-full h-auto bg-figma-4 pt-10 px-20">
             <div class="flex w-full h-full">
                 <LayoutFooter/>
             </div>

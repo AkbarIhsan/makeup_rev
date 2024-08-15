@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div data-aos="fade-up" class="w-[1160px] h-[420px] rounded-lg bg-figma-15 flex overflow-hidden">
+        <div data-aos="fade-up" class="w-full h-[420px] rounded-lg bg-figma-15 flex overflow-hidden">
             <div class="absolute h-[475px] w-full justify-end items-end flex">
                 <img class="h-full w-[45%] scale-y-150 scale-x-110" src="https://i.ibb.co.com/xsTnbQx/photocard1.jpg" alt="">
             </div>
