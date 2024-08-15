@@ -28,7 +28,6 @@
                 <div class="w-full flex justify-center">
                     <button class="bg-figma-20 text-figma-19 py-3 px-16 rounded-3xl text-sm cursor-pointer hover:bg-opacity-80">Sign Up</button>
                 </div>
-
             </form>
         </div>
     </div>
