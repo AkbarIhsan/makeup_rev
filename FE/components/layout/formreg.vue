@@ -26,7 +26,7 @@
                     <label for="terms" class="ml-2 text-figma-11 opacity-30 cursor-pointer">I accept the <a class="font-semibold text-primary-600 hover:underline dark:text-primary-500" href="#">Terms and Conditions</a></label>
                 </div>
                 <div class="w-full flex justify-center">
-                    <NuxtLink class="bg-figma-20 text-figma-19 py-3 px-16 rounded-3xl text-sm cursor-pointer  hover:bg-opacity-80" to="/explore">Sign Up</NuxtLink>
+                    <button class="bg-figma-20 text-figma-19 py-3 px-16 rounded-3xl text-sm cursor-pointer hover:bg-opacity-80">Sign Up</button>
                 </div>
 
             </form>
