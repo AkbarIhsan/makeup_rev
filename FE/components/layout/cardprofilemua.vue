@@ -1,6 +1,6 @@
 <template>
     <div>
-        <NuxtLink data-aos="fade-up" class="w-[265px] h-[495px] flex group cursor-nome">
+        <NuxtLink data-aos="fade-up" class="w-[20.8vw] h-[79vh] flex group cursor-nome">
             <div class="w-full h-full bg-figma-1 flex justify-center rounded-lg shadow-xl hover:scale-105 transform transition-all duration-300">
                 <div class="w-full h-full p-3 flex flex-col items-center">
                     <img class="w-full h-[45%] rounded-lg transform transition-all duration-300 group-hover:-translate-y-10 group-hover:shadow-cardmua" src="https://i.ibb.co.com/fdPdPnJ/cardmua1.jpg" alt=""> 
