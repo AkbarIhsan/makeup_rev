@@ -1,6 +1,7 @@
 <template>
     <div>
-        <div class="w-full h-auto flex flex-col">
+        <div class="w-full h-3 bg-figma-12 rounded-full"></div>
+        <div class="w-full h-auto flex flex-col mt-10">
             <div class="w-full flex flex-row text-4xl">
                 <h1 class="font-extrabold text-figma-12">WeMake</h1><h1 class="font-semibold">Artisty</h1>
             </div>

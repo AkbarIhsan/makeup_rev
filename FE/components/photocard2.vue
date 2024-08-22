@@ -7,7 +7,7 @@
             <div class="flex w-full h-full flex-col items-end clip-lancip-kedalam2 bg-figma-16 rounded-l-lg ">
                 <div data-aos="fade-left" class="gap-8 h-full w-[40%] flex flex-col justify-center items-center mx-24">
                     <h1 class="text-[40px] font-bold text-figma-7 text-center">Get ready with us for your special moment</h1>
-                    <NuxtLink class="bg-figma-12 text-white py-3 px-16 rounded-3xl text-sm cursor-pointer  hover:bg-opacity-80" to="/explore">Booking Now</NuxtLink>
+                    <CustomLink to="/mua">Booking Now</CustomLink>
                 </div>
             </div>
         </div>

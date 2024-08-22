@@ -4,9 +4,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss"],
   css: [
-    'aos/dist/aos.css'
+    'aos/dist/aos.css',
+    'vue-final-modal/style.css'
   ],
   plugins: [
     { src: '~/plugins/aos.client', mode: 'client' }
   ],
+  
 })

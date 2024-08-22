@@ -13,7 +13,7 @@
                         <div class="w-full h-full flex flex-row">
                             <div class="w-full h-full flex flex-col">
                                 <h4 class="font-thin text-xs pt-5 text-figma-11">Start Form</h4>
-                                <h2 class="font-bold text-figma-11 text-sm">IDR 100.000,00</h2>
+                                <h2 class="font-bold text-figma-7 text-sm">IDR 100.000,00</h2>
                             </div>
                             <div class="w-full h-full flex flex-col items-end">
                                 <h4 class="font-thin text-xs pt-5 text-figma-11">134 Reviews</h4>
@@ -22,7 +22,9 @@
                         </div>
                     </div>
                     <div class="h-full flex items-center">
-                        <NuxtLink class="bg-figma-12 text-white py-3 px-16 rounded-3xl text-sm cursor-pointer  hover:bg-opacity-80" to="/">Detail</NuxtLink>
+                        <CustomLink to="/" class="text-sm">
+                            Detail
+                        </CustomLink>
                     </div>
                 </div>
             </div>
