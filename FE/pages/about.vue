@@ -22,9 +22,10 @@
                         <h1 class="text-4xl text-figma-7 font-bold">Elevate Your Artistry</h1>
                         <h2 class="text-figma-7">WeMakeArtistry empowers makeup artists to manage their businesses, connect with clients, and streamline scheduling. Our tools showcase your services and grow your clientele, allowing you to focus on creating stunning looks. We provide the support and visibility needed to achieve your business goals.</h2>
                     </div>
-                    <div class="flex w-[40%] h-full px-10">
-                        <div class="w-full h-full bg-figma-18">
-
+                    <div class="flex w-[40%] h-full justify-center">
+                        <div class="absolute flex h-full"><img class="rounded-lg" src="https://i.ibb.co.com/9W3NXYK/foto1.jpg" alt=""></div>
+                        <div class="w-full h-full flex items-center">
+                            <div class="w-[80%] h-[80%] mx-10 bg-figma-12 rounded-lg"></div>
                         </div>
                     </div>
                 </div>
@@ -39,9 +40,10 @@
                         <h1 class="text-4xl text-figma-7 font-bold">Discover Your Beauty</h1>
                         <h2 class="text-figma-7">For clients, WeMakeArtistry makes it easy to discover and book beauty services anytime, anywhere. Whether you need expert makeup for a special event or want to upgrade your daily routine, our platform connects you with top professionals. Enjoy personalized beauty experiences and effortless booking with WeMakeArtistry.</h2>
                     </div>
-                    <div class="flex w-[40%] h-full px-10">
-                        <div class="w-full h-full bg-figma-18">
-
+                    <div class="flex w-[40%] h-full justify-center">
+                        <div class="absolute flex h-full"><img class="rounded-lg" src="https://i.ibb.co.com/WHwjJFr/foto2.jpg" alt=""></div>
+                        <div class="w-full h-full flex items-center">
+                            <div class="w-[80%] h-[80%] mx-10 bg-figma-12 rounded-lg"></div>
                         </div>
                     </div>
                 </div>
