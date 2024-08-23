@@ -57,7 +57,8 @@
 
 <template>
     <div>
-        <form class="flex flex-col gap-y-4 mt-[10%]" action="">
+        <h1 class="text-3xl flex justify-center mt-[10%]">Sign In</h1>
+        <form class="flex flex-col gap-y-4 mt-[10%] px-4" action="">
                 <!-- email address -->
                 <div>
                     <label id="inputLabelEm" class="text-figma-11 font-semibold text-sm transition duration-300 opacity-0" for="inputFieldEm">Email Address</label>
@@ -89,11 +90,6 @@
                 <!-- sign up button -->
                 <div class="flex justify-center mt-[6%]">
                     <CustomButton variant="primary" class="text-xs">Sign In</CustomButton>
-                </div>
-
-                <div class="flex flex-row gap-x-1 justify-center w-full h-full mt-[3%]">
-                    <h6 class="text-sm text-figma-11 font-thin">Don’t have an account yet?</h6>
-                    <NuxtLink class="text-sm text-figma-11 font-semibold" to="/register">Sign Up Here</NuxtLink>
                 </div>
         </form>
     </div>
