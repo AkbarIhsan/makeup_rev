@@ -17,15 +17,16 @@
         </div>
 
     <!-- iklan -->
-        <div class="flex justify-center transition-all duration-300">
-            <img data-aos="fade-left" class="rounded-lg w-full" src="https://i.ibb.co.com/BzhKKbY/promo.jpg" alt="">
+        <div class="flex flex-col justify-center transition-all duration-300">
+            <h1 class="text-figma-7 text-2xl font-bold">Special Promo</h1>
+            <img data-aos="fade-left" class="rounded-lg w-full mt-12" src="https://i.ibb.co.com/BzhKKbY/promo.jpg" alt="">
         </div>
 
     <!-- card profile -->
         <div>
             <div class="w-full flex flex-row justify-between">
                 <h1 class="text-figma-7 text-2xl font-bold">Top MUA</h1>
-                <NuxtLink class="flex items-center text-figma-11 font-semibold text-xl" to="/mua">View More</NuxtLink>
+                <NuxtLink class="flex items-center text-figma-12 font-semibold text-xl" to="/mua">View More</NuxtLink>
             </div>
             <div class="flex justify-between gap-y-12 flex-wrap mt-12">
                 <Cardprofilemua/>

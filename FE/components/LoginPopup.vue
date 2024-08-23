@@ -6,7 +6,7 @@
 <template>
     <VueFinalModal  
         class="flex justify-center items-center"
-        content-class="relative px-8 w-[30%] h-[70%] rounded-lg bg-figma-1 flex flex-col"
+        content-class="relative w-[30%] h-[70%] rounded-lg bg-figma-1 flex flex-col"
         content-transition="vfm-fade"
         overlay-transition="vfm-fade">
             <Formlogin/>

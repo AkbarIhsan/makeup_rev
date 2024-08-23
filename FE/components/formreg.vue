@@ -50,8 +50,8 @@
                 </div>
 
                 <!-- sign up button -->
-                <div class="flex justify-center items-center">
-                    <CustomButton variant="secondary">Sign Up</CustomButton>
+                <div class="flex justify-center">
+                    <CustomButton variant="secondary" class="text-sm">Sign Up</CustomButton>
                 </div>
             </form>
         </div>

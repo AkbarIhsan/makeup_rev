@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         'figma-1': 'rgb(255, 255, 240)',
+        'figma-1-opacity': 'rgb(255, 255, 240, 0.5)',
         'figma-2': 'rgb(247,231,206)',
         'figma-3': 'rgb(246,226,194)',
         'figma-4': 'rgb(248,209,208)',
@@ -16,6 +17,7 @@ export default {
         'figma-10': 'rgb(254,233,232)',
         'figma-11': 'rgb(68,68,68)',
         'figma-12': 'rgb(231,128,126)',
+        'figma-12-opacity': 'rgb(231,128,126,0.71)',
         'figma-13': 'rgb(183,110,121)', 
         'figma-14': 'rgb(254,237,221)',
         'figma-15': 'rgb(230, 190, 164)',

@@ -18,7 +18,7 @@
         <div>
             <div class="w-full h-96 flex">
                 <div data-aos="fade-right" class="w-full h-full flex flex-row">
-                    <div class="flex flex-col w-[60%] gap-10 px-10 justify-center">
+                    <div class="flex flex-col w-[60%] gap-10 justify-center">
                         <h1 class="text-4xl text-figma-7 font-bold">Elevate Your Artistry</h1>
                         <h2 class="text-figma-7">WeMakeArtistry empowers makeup artists to manage their businesses, connect with clients, and streamline scheduling. Our tools showcase your services and grow your clientele, allowing you to focus on creating stunning looks. We provide the support and visibility needed to achieve your business goals.</h2>
                     </div>
@@ -35,7 +35,7 @@
         <div>
             <div class="w-full h-96 flex">
                 <div data-aos="fade-left" class="w-full h-full flex flex-row-reverse">
-                    <div class="flex flex-col w-[60%] gap-10 px-10 justify-center">
+                    <div class="flex flex-col w-[60%] gap-10 justify-center">
                         <h1 class="text-4xl text-figma-7 font-bold">Discover Your Beauty</h1>
                         <h2 class="text-figma-7">For clients, WeMakeArtistry makes it easy to discover and book beauty services anytime, anywhere. Whether you need expert makeup for a special event or want to upgrade your daily routine, our platform connects you with top professionals. Enjoy personalized beauty experiences and effortless booking with WeMakeArtistry.</h2>
                     </div>
@@ -51,10 +51,11 @@
     <!-- foto3 -->
         <div>
             <div class="w-full h-96 flex">
-                <div data-aos="fade-down" class="w-full h-full flex bg-figma-17">
-                    <div class="flex flex-col w-full h-full gap-10 items-center justify-center px-64">
-                        <h1 class="text-4xl text-figma-7 text-center font-bold">Empowering Beauty, <br> Innovating Tomorrow</h1>
-                        <h2 class="text-figma-7 text-center">Through WeMakeArtistry, we are committed to building a connected beauty community, driving innovation, and growing together for the future of the beauty industry.</h2>
+                <div data-aos="fade-down" class="w-full h-full flex rounded-lg" style="background-image: url('https://i.ibb.co.com/mXb2dvY/about.jpg');">
+                    <div class="w-full h-full bg-gradient-to-b rounded-lg from-figma-1-opacity to-figma-12-opacity absolute"></div>
+                    <div class="flex flex-col w-full h-full gap-10 items-center justify-center px-60">
+                        <h1 class="text-3xl text-figma-1 text-center font-bold">Empowering Beauty, Innovating Tomorrow</h1>
+                        <h2 class="text-figma-1 text-center">Through WeMakeArtistry, we are committed to building a connected beauty community, driving innovation, and growing together for the future of the beauty industry.</h2>
                     </div>
                 </div>
             </div>

@@ -13,9 +13,9 @@
                         <img class="w-[35%] h-[30%] ml-12" src="https://i.ibb.co.com/FJ11MYD/auth-removebg-preview.png" alt="">
                         <h1 class="text-shadow-lg text-5xl font-bold">Welcome Back!</h1>
                         <h2 class="text-figma-11">Don't have an account yet?</h2>
-                        <CustomLink to="/" variant="transparent">Sign Up</CustomLink>
+                        <CustomLink to="/register" variant="transparent" class="text-sm">Sign Up</CustomLink>
                     </div>
-                    <div class="w-[50%] h-full bg-figma-1 rounded-r-lg">
+                    <div class="w-[50%] h-full bg-figma-1 rounded-l-lg">
                         <Formlogin/>
                     </div>
                 </div>
