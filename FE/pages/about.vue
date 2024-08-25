@@ -74,7 +74,7 @@
                                 <h1 class="text-4xl text-figma-7 text-center font-bold">Are you a Makeup Artist?</h1>
                                 <h2 class="text-figma-7 text-center">Want to improve your <br> beauty career?</h2>
                             </div>
-                            <CustomLink to="/register/wma-mua">
+                            <CustomLink to="/register/up-mua">
                                 Join Now
                             </CustomLink>
                         </div>
@@ -94,8 +94,4 @@
                 </div>
             </div>
         </div>
-
-    <!-- footer -->
-        <Footer/>
-
 </template>

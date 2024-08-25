@@ -38,7 +38,4 @@
 
     <!-- photocard -->
         <Photocard1/>
-
-    <!-- footer -->
-        <Footer/>
 </template>
