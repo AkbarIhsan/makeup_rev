@@ -1,17 +1,34 @@
 <template>
-    <!-- slogan -->
-        <div class="w-full h-screen flex flex-col gap-11 justify-center">
-            <div class="w-full flex flex-row justify-center text-6xl">
-                <h1 class="font-extrabold text-figma-12">WeMake</h1><h1 class="font-semibold">Artisty</h1>
-            </div>
-            <div class="w-full flex px-60">
-                <p class="text-center text-lg text-figma-7">WeMakeArtistry is the ultimate platform connecting beauty professionals with clients. By bringing together a diverse community of makeup artists and clients, WeMakeArtistry creates a vibrant marketplace where both can thrive. Our platform simplifies the process of managing and discovering beauty services, making it a hub for innovation and convenience in the beauty industry.</p>
+    <div class="w-full h-screen flex flex-row">
+        <!-- gambar -->
+        <div class="w-[40%] h-full flex items-center relative">
+            <img data-aos="zoom-right" class="absolute top-10 -right-16" src="https://i.ibb.co.com/3Sw2DTk/percikan-removebg-preview.png" alt="">
+            <div class="mt-32 w-[80%] h-[80%] bg-figma-12 rounded-t-full flex z-5">
+                <div class="w-full h-full flex flex-col">
+                    <div class="scale-x-[-1] w-full h-full">
+                        <img data-aos="fade-up" class="h-full w-full pt-10" src="https://i.ibb.co.com/YBXXNrt/about1-removebg-preview.png" alt="">
+                    </div>
+                    <div class="absolute -bottom-10 -left-10 w-full h-[30%] bg-figma-4 blur-xl"></div>
+                </div>
             </div>
         </div>
+        <!-- slogan -->
+        <div class="w-[60%] h-full flex items-center justify-end">
+            <div data-aos="fade-left" class="flex flex-col w-[85%] h-auto gap-10">
+                <div class="flex flex-row justify-center text-7xl">
+                    <h1 class="font-black text-figma-12 ">WeMake</h1><h1 class="font-bold">Artisty</h1>
+                </div>
+                <div class="px-2">
+                    <p class="text-center text-lg font-medium text-figma-7">WeMakeArtistry connects beauty professionals with clients, creating a dynamic marketplace where both can thrive. Our platform simplifies managing and discovering beauty services, offering convenience and innovation in the beauty industry.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- get to know us -->
-        <div class="flex justify-center">
-            <h1 class="text-figma-1 text-6xl font-semibold text-shadow-md py-20">Get to Know Us</h1>
+        <div class="flex flex-col items-center text-6xl gap-3 font-semibold text-shadow-md justify-center">
+            <h1 class="text-figma-1">GET TO</h1>
+            <h1 class="text-figma-12">KNOW US</h1>
         </div>
         
     <!-- foto1 -->

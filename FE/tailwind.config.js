@@ -34,6 +34,9 @@ export default {
       boxShadow:{
         'username': '0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)',
         'cardmua': '0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)',
+      },
+      fontFamily:{
+        'montserrat': '"Montserrat", sans-serif',
       }
     },
   },

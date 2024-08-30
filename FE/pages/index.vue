@@ -5,7 +5,7 @@
                 <img class="w-[40%] h-[90%] absolute -left-20 -scale-x-100" src="https://i.ibb.co.com/27968LH/kanan-kiri.png" alt="">
                 <img class="w-[40%] h-[90%] absolute -right-20" src="https://i.ibb.co.com/27968LH/kanan-kiri.png" alt="">
             </div>
-            <h1  class="text-7xl text-white text-center font-bold text-shadow-xl">
+            <h1  class="text-7xl text-figma-1 text-center font-bold text-shadow-lg">
                 Professional <br> Make up Studio
             </h1>
             <h2 class="w-1/2 text-figma-13 text-center">
