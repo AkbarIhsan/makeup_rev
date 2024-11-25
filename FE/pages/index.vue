@@ -5,7 +5,7 @@
                 <img class="w-[40%] h-[90%] absolute -left-20 -scale-x-100" src="https://i.ibb.co.com/27968LH/kanan-kiri.png" alt="">
                 <img class="w-[40%] h-[90%] absolute -right-20" src="https://i.ibb.co.com/27968LH/kanan-kiri.png" alt="">
             </div>
-            <h1  class="text-7xl text-figma-1 text-center font-bold text-shadow-lg">
+            <h1 class="text-7xl text-figma-1 text-center font-bold text-shadow-lg">
                 Professional <br> Make up Studio
             </h1>
             <h2 class="w-1/2 text-figma-13 text-center">
@@ -26,7 +26,7 @@
         <div>
             <div class="w-full flex flex-row justify-between">
                 <h1 class="text-figma-7 text-2xl font-bold">Top MUA</h1>
-                <NuxtLink class="flex items-center text-figma-12 font-semibold text-xl" to="/mua">View More</NuxtLink>
+                <NuxtLink class="flex items-center text-figma-12 font-semibold text-xl" to="/viewmore">View More</NuxtLink>
             </div>
             <div class="flex justify-between gap-y-12 flex-wrap mt-12">
                 <Cardprofilemua/>

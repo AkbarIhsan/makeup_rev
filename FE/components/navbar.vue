@@ -13,7 +13,7 @@
                     <NuxtLink :class="{'text-figma-12 hover:border-none': isActive('/about')}" class="flex text-figma-11 text-sm cursor-pointer hover:border-b-2 hover:border-figma-7" to="/about">About Us</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink :class="{'text-figma-12 hover:border-none': isActive('/mua')}" class="flex text-figma-11 text-sm cursor-pointer hover:border-b-2 hover:border-figma-7" to="/mua">Service</NuxtLink>
+                    <NuxtLink :class="{'text-figma-12 hover:border-none': isActive('/service')}" class="flex text-figma-11 text-sm cursor-pointer hover:border-b-2 hover:border-figma-7" to="/service">Service</NuxtLink>
                 </li>
                 <li>
                     <CustomButton @click="open" class="text-sm">
