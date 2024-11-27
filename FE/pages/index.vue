@@ -25,7 +25,7 @@
                 <h1 class="text-figma-7 text-2xl font-bold">Top MUA</h1>
                 <NuxtLink class="flex items-center text-figma-12 font-semibold text-xl" to="/mua">View More</NuxtLink>
             </div>
-            <div class="lg:columns-4 md:columns-2 columns-1 space-y-10 md:space-y-4 mt-12">
+            <div class="lg:columns-4 md:columns-2 columns-2 space-y-10 md:space-y-4 mt-12">
                 <Cardprofilemua/>
                 <Cardprofilemua/>
                 <Cardprofilemua/>

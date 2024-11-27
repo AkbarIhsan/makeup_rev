@@ -90,13 +90,13 @@
                 Service
             </div>
             <div class="w-full flex flex-col gap-8">
-                <div class="w-full py-3 bg-figma-12 text-white rounded-lg justify-center flex font-semibold text-xl">
+                <div class="w-full py-3 bg-figma-7 text-white rounded-lg justify-center flex font-semibold text-xl">
                     Basic Makeup
                 </div>
                 <div class="columns-1 md:columns-3 space-y-5">
-                    <div class="w-full h-auto flex flex-col bg-white rounded-lg">
+                    <div class="w-full h-auto flex flex-col bg-white rounded-3xl">
                         <div class="h-auto">
-                            <img class="w-full object-cover object-center h-52 rounded-t-lg" src="@/assets/basic.png" alt="">
+                            <img class="w-full object-cover object-center h-52 rounded-t-3xl" src="@/assets/basic.png" alt="">
                         </div>
                         <div class="flex flex-col p-5 gap-10">
                             <div class="flex flex-col gap-3">
@@ -111,9 +111,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-full h-auto flex flex-col bg-white rounded-lg">
+                    <div class="w-full h-auto flex flex-col bg-white rounded-3xl">
                         <div class="h-auto">
-                            <img class="w-full object-cover object-center h-52 rounded-t-lg" src="@/assets/basic.png" alt="">
+                            <img class="w-full object-cover object-center h-52 rounded-t-3xl" src="@/assets/basic.png" alt="">
                         </div>
                         <div class="flex flex-col p-5 gap-10">
                             <div class="flex flex-col gap-3">
@@ -128,9 +128,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-full h-auto flex flex-col bg-white rounded-lg">
+                    <div class="w-full h-auto flex flex-col bg-white rounded-3xl">
                         <div class="h-auto">
-                            <img class="w-full object-cover object-center h-52 rounded-t-lg" src="@/assets/basic.png" alt="">
+                            <img class="w-full object-cover object-center h-52 rounded-t-3xl" src="@/assets/basic.png" alt="">
                         </div>
                         <div class="flex flex-col p-5 gap-10">
                             <div class="flex flex-col gap-3">
@@ -149,13 +149,13 @@
             </div>
 
             <div class="w-full flex flex-col gap-8">
-                <div class="w-full py-3 bg-figma-12 text-white rounded-lg justify-center flex font-semibold text-xl">
+                <div class="w-full py-3 bg-figma-7 text-white rounded-lg justify-center flex font-semibold text-xl">
                     Wedding Makeup
                 </div>
                 <div class="columns-1 md:columns-3 space-y-5">
-                    <div class="w-full h-auto flex flex-col bg-white rounded-lg">
+                    <div class="w-full h-auto flex flex-col bg-white rounded-3xl">
                         <div class="h-auto">
-                            <img class="w-full object-cover object-center h-52 rounded-t-lg" src="@/assets/basic.png" alt="">
+                            <img class="w-full object-cover object-center h-52 rounded-t-3xl" src="@/assets/basic.png" alt="">
                         </div>
                         <div class="flex flex-col p-5 gap-10">
                             <div class="flex flex-col gap-3">
@@ -170,9 +170,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-full h-auto flex flex-col bg-white rounded-lg">
+                    <div class="w-full h-auto flex flex-col bg-white rounded-3xl">
                         <div class="h-auto">
-                            <img class="w-full object-cover object-center h-52 rounded-t-lg" src="@/assets/basic.png" alt="">
+                            <img class="w-full object-cover object-center h-52 rounded-t-3xl" src="@/assets/basic.png" alt="">
                         </div>
                         <div class="flex flex-col p-5 gap-10">
                             <div class="flex flex-col gap-3">
@@ -187,9 +187,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-full h-auto flex flex-col bg-white rounded-lg">
+                    <div class="w-full h-auto flex flex-col bg-white rounded-3xl">
                         <div class="h-auto">
-                            <img class="w-full object-cover object-center h-52 rounded-t-lg" src="@/assets/basic.png" alt="">
+                            <img class="w-full object-cover object-center h-52 rounded-t-3xl" src="@/assets/basic.png" alt="">
                         </div>
                         <div class="flex flex-col p-5 gap-10">
                             <div class="flex flex-col gap-3">

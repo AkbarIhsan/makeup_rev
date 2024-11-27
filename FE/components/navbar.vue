@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav :class="['w-full fixed px-10 md:px-20 transition-all duration-300 z-10', {'flex bg-figma-1 shadow-lg h-16': isScrolled, 'h-24': !isScrolled}]">
+        <nav :class="['w-full fixed px-5 md:px-20 transition-all duration-300 z-10', {'flex bg-figma-1 shadow-lg h-16': isScrolled, 'h-24': !isScrolled}]">
             <ul class="flex flex-row w-full h-full items-center justify-end md:justify-start">
                 <li class="flex flex-row text-2xl text-shadow-md">
                     <h1 class="font-extrabold text-figma-12">WeMake</h1><h1>Artisty</h1>
@@ -26,6 +26,30 @@
         </nav>
         <ModalsContainer/>
     </div>
+
+    <!-- humberger icon -->
+    <div :class="['w-full fixed lg:hidden  px-5 md:px-20 transition-all duration-300 z-10 flex', {'h-16': isScrolled, 'h-24': !isScrolled}]">
+        <button @click="toggleMenu" class="focus:outline-none">
+            <div :class="['w-6 h-1 bg-figma-7 mb-1 transition-all duration-300', isMenuOpen ? 'rotate-45 translate-y-2' : '']"></div>
+            <div :class="['w-6 h-1 bg-figma-7 mb-1 transition-all duration-300', isMenuOpen ? 'opacity-0' : '']"></div>
+            <div :class="['w-6 h-1 bg-figma-7 transition-all duration-300', isMenuOpen ? '-rotate-45 -translate-y-2' : '']"></div>
+        </button>
+    </div>
+
+    <!-- Menu for sm screens -->
+    <nav v-if="isMenuOpen" class="fixed w-[50%] mx-5 top-20 bg-white shadow-lg md:hidden rounded-lg z-50">
+        <ul class="flex flex-col items-start p-4 space-y-2 text-sm font-bold text-color4">
+            <li>
+                <NuxtLink @click="toggleMenu" :class="{'text-figma-7' : isActive('/')}" class="hover:text-color5" to="/">Home</NuxtLink>
+            </li>
+            <li>
+                <NuxtLink @click="toggleMenu" :class="{'text-figma-7' : isActive('/about')}" class="hover:text-color5" to="/about">About Us</NuxtLink>
+            </li>
+            <li>
+                <NuxtLink @click="toggleMenu" :class="{'text-figma-7' : isActive('/service')}" class="hover:text-color5" to="/service">Service</NuxtLink>
+            </li>
+        </ul>
+    </nav>
 </template>
 
 <script setup lang="ts">
@@ -39,6 +63,7 @@
     })
 
     const isScrolled = ref(false)
+    const isMenuOpen = ref(false)
     const router = useRouter()
 
     const isActive = (path: string) => router.currentRoute.value.path === path
@@ -54,5 +79,9 @@
     onBeforeUnmount(() => {
     window.removeEventListener('scroll', handleScroll)
     })
+
+    const toggleMenu = () => {
+        isMenuOpen.value = !isMenuOpen.value
+    }
 </script>
 
