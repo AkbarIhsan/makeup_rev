@@ -1,5 +1,8 @@
 <template>
-    <div class="w-full h-auto py-28">
+    <div class="pt-24 md:pt-28">
+        <Search/>
+    </div>
+    <div class="w-full h-auto">
         <Gallery/>
     </div>
 </template>

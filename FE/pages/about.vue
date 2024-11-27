@@ -8,7 +8,7 @@
                     <div class="scale-x-[-1] w-full h-full">
                         <img data-aos="fade-up" class="h-full w-full pt-10" src="https://i.ibb.co.com/YBXXNrt/about1-removebg-preview.png" alt="">
                     </div>
-                    <div class="absolute -bottom-10 -left-10 w-full h-[30%] bg-figma-4 blur-xl"></div>
+                    <div class="absolute -bottom-32 -left-10 w-full h-[40%] bg-figma-4 blur-xl"></div>
                 </div>
             </div>
         </div>
