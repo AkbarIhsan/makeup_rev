@@ -1,54 +1,36 @@
 <template>
-    <div class="w-full h-auto py-28">
-        <div class="w-full h-screen flex flex-row">
-        <!-- gambar -->
-        <div class="w-[40%] h-full flex items-center relative">
-            <img data-aos="zoom-right" class="absolute top-10 -right-16" src="https://i.ibb.co.com/D5NBjHj/Whats-App-Image-2024-11-08-at-2-55-08-PM-removebg-preview.png" alt="">
-
+    <div class="w-full h-screen flex flex-col md:flex-row">
+        <div class="w-full h-full flex justify-center -bottom-24 md:-bottom-0 items-center relative">
+            <img class="md:w-96 md:h-96 w-64 h-64" src="@/assets/bg-efek.png" alt="">
+            <img class="absolute md:w-[19rem] md:h-[19rem] w-48 h-48 rounded-full" src="@/assets/img-service.png" alt="">
         </div>
-        <!-- slogan -->
-        <div class="w-[60%] h-full flex items-center justify-end">
-            <div data-aos="fade-left" class="flex flex-col w-[85%] h-auto gap-10">
-                <div class="flex flex-row justify-center text-7xl">
-                    <h1 class="font-black text-figma-12 ">WeMake</h1><h1 class="font-bold">Artisty</h1>
-                </div>
-                <div class="px-2">
-                    <p class="text-center text-lg font-medium text-figma-7">WeMakeArtistry connects beauty professionals with clients, creating a dynamic marketplace where both can thrive. Our platform simplifies managing and discovering beauty services, offering convenience and innovation in the beauty industry.</p>
-                </div>
+        <div class="w-full h-full flex justify-center pb-12 items-center">
+            <div class="md:text-4xl text-2xl font-bold flex w-full flex-wrap justify-center gap-2 text-white text-shadow-md">
+                <div>Discover your</div> 
+                <div class="text-figma-12">favourite</div>
+                <div class="text-figma-12">makeup artist</div>
+                <div>for your event</div>
             </div>
         </div>
     </div>
-    <div class="flex flex-col items-center text-3xl font-semibold text-shadow-md justify-center">
-        <h1>
-            <span class="text-figma-1">Discover your</span> 
-            <span class="text-figma-12"> favourite</span>
-        </h1>
-        <h1>
-            <span class="text-figma-12">makeup artist</span>
-            <span class="text-figma-1"> for your event</span> 
-        </h1>
+    <div class="w-full h-auto flex flex-col">
+        <div class="w-full flex justify-between text-xl md:text-2xl">
+            <h1 class="text-figma-7 font-bold">Gallery Makeup Look</h1>
+            <NuxtLink class="text-figma-12 font-semibold" to="">View More</NuxtLink>
         </div>
-    <!-- gallery -->
-        <div>
-            <div class="w-full flex flex-row justify-between">
-                <h1 class="text-figma-7 text-2xl font-bold">Gallery Makeup Look</h1>
-                <NuxtLink class="flex items-center text-figma-12 font-semibold text-xl" to="/">View More</NuxtLink>
-            </div>
-            <div class="flex justify-between gap-y-12 flex-wrap mt-12">
-            </div>
-        </div>
-    <!-- card profile -->
-        <div>
-            <div class="w-full flex flex-row justify-between">
+        <SlideService/>
+    </div>
+
+    <div>
+        <div class="w-full flex flex-row justify-between">
                 <h1 class="text-figma-7 text-2xl font-bold">Makeup Artist</h1>
-                <NuxtLink class="flex items-center text-figma-12 font-semibold text-xl" to="/viewmore">View More</NuxtLink>
+                <NuxtLink class="flex items-center text-figma-12 font-semibold text-xl" to="/mua">View More</NuxtLink>
             </div>
-            <div class="flex justify-between gap-y-12 flex-wrap mt-12">
-                <Cardservice/>
-                <Cardservice/>
-                <Cardservice/>
-                <Cardservice/>
+            <div class="lg:columns-4 md:columns-2 columns-2 space-y-10 md:space-y-4 mt-12">
+                <Cardprofilemua/>
+                <Cardprofilemua/>
+                <Cardprofilemua/>
+                <Cardprofilemua/>
             </div>
         </div>
-</div>  
 </template>

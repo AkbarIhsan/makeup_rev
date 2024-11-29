@@ -1,6 +1,5 @@
 <script lang="ts" setup>
     import { VueFinalModal } from 'vue-final-modal';
-    
 </script>
 
 <template>
