@@ -33,5 +33,4 @@
                 <Cardprofilemua/>
             </div>
         </div>
-
 </template>
